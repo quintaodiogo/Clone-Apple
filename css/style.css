@@ -170,7 +170,7 @@ header nav {
     transition: .5s;
 }
 #main-content #product-image.changing{
-    opacity: 0.5;
+    opacity: 0.8;
 }
 #image-picker{
     margin-bottom: 100px;; 
@@ -199,6 +199,10 @@ header nav {
     font-size: 12px;
     padding:7px 0;
     color: #1D1D1F;
+    display: none;
+}
+#image-picker li .active{
+    display: inline;
 }
 
 #green .color{
@@ -208,27 +212,19 @@ header nav {
 #silver .color{
     background-color: #F1F2ED;
 }
-#silver .description{
-    display: none;
-}
+
 #golden .color{
     background-color: #FAE7CF;
 }
-#golden .description{
-    display: none;
-}
+
 #grafite .color{
     background-color: #54524f;
 }
-#grafite .description{
-    display: none;
-}
+
 #blue .color{
     background-color: #a7c1d9;
 }
-#blue .description{
-    display: none;
-}
+
 .selected{
     outline: 2px solid #0071e3;
 }
